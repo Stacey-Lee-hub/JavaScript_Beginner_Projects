@@ -1,0 +1,62 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(49,37,90);
+}
+
+h1 {
+    color: rgb(31, 31, 96);
+    font-size: 3rem;
+}
+
+form {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 50rem;
+    margin: auto;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem 1.5rem rgb(143,224,255, 0.5);
+}
+
+#textBox {
+    width: 50%;
+    text-align: center;
+    font-size: 2.5rem;
+    border: .2rem solid rgb(31, 31, 96);
+    border-radius: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: rgb(31, 31, 96);
+    color: rgb(117,180,227);
+    font-size: 1.5rem;
+    padding: .8rem 1.5rem;
+    border-radius: 4rem;
+    border: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(84,65,109);
+    background-color: rgb(117,180,227);
+}
+
+#result {
+    font-size: 2rem;
+    font-weight: bold;
+}
